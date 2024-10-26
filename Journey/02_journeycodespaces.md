@@ -99,7 +99,7 @@ Get the Grafana admin password:
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 ```
 admin is the default username
-password : KJXXQeCaprEKz3FHjq7rjosYOiZxfmnZhM4xi90F
+password : 4YXwXPesjqJGZSylqzGfJOIatvabGMfFgvKOvYrb
 
 ```
 Access Grafana at `http://localhost:3000` and log in with `admin` and the retrieved password.
