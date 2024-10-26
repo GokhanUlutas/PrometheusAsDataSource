@@ -86,7 +86,7 @@ kubectl port-forward svc/grafana 3000:80 -n monitoring
 ```bash
 kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
 ```
-port forward output
+port forward prometheus 
 
 @ulutasgo ➜ /workspaces/PrometheusAsDataSource (main) $ kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
 Forwarding from 127.0.0.1:9090 -> 9090
