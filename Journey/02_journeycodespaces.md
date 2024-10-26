@@ -103,10 +103,10 @@ Forwarding from [::1]:9090 -> 9090
 ### 7. 🌐 Access Grafana
 Get the Grafana admin password:
 ```bash
-kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 ```
-admin is the default username
-password : 4YXwXPesjqJGZSylqzGfJOIatvabGMfFgvKOvYrb
+ admin is the default username
+ password : 4YXwXPesjqJGZSylqzGfJOIatvabGMfFgvKOvYrb
 
 ```
 Access Grafana at `http://localhost:3000` and log in with `admin` and the retrieved password.
