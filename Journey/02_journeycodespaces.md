@@ -67,6 +67,7 @@ monitoring    prometheus-prometheus-node-exporter-nqf6j            1/1     Runni
 monitoring    prometheus-prometheus-pushgateway-84557d6c79-nzp4t   1/1     Running   0             21s
 monitoring    prometheus-server-644d686bc6-57999                   1/2     Running   0             21s
 
+
 # Port forward Grafana
 
 # initial Port forward setup 
