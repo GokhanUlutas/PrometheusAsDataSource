@@ -86,6 +86,13 @@ kubectl port-forward svc/grafana 3000:80 -n monitoring
 ```bash
 kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
 ```
+port forward output
+
+@ulutasgo ➜ /workspaces/PrometheusAsDataSource (main) $ kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
+Forwarding from 127.0.0.1:9090 -> 9090
+Forwarding from [::1]:9090 -> 9090
+
+
 - **Local Environment:** Access Prometheus at `http://localhost:9090`.
 
 - **CodeSpaces Environment:** Access Prometheus at `https://friendly-rotary-phone-7w5g6j49r6hwr4p-9090.app.github.dev/graph?g0.expr=&g0.tab=1&g0.display_mode=lines&g0.show_exemplars=0&g0.range_input=1h`.
